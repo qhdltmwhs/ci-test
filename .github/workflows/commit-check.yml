@@ -15,5 +15,4 @@ jobs:
           if [[ "$MESSAGE" != feat:* && "$MESSAGE" != fix:* ]]; then
             echo "❌ Commit message must start with 'feat:' or 'fix:'"
             exit 1
-          fi
-          
+          fi          
